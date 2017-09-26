@@ -2,8 +2,8 @@ var dwarvesArray = [];
 function dwarfRollCall(dwarvesArray) {
   for (var i=0; i < dwarvesArray.length; i++ ){
   var currentDwarfName = dwarvesArray[i];
-  currentDwarfName.toUpperCase()
 }
+  return [i] + "." + currentDwarfName
 }
 
 var planeteerCalls = [];
