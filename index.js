@@ -1,6 +1,6 @@
 var dwarvesArray = [];
 function dwarfRollCall(dwarvesArray) {
-  for (var i=0; i < dwarvesArray.length; i=i+1 ){
+  for (var i=0; i < dwarvesArray.length; i++ ){
   var currentDwarfName = dwarvesArray[i];
   currentDwarfName.toUpperCase())
 }
@@ -8,7 +8,7 @@ function dwarfRollCall(dwarvesArray) {
 
 var planeteerCalls = [];
 function summonCaptainPlanet(planeteerCalls){
-    for (var i=0; i < dwarvesArray.length; i=i+1 ){
+    for (var i=0; i < planeteerCalls.length; i++ ){
     var currentDwarfName = dwarvesArray[i];
     currentDwarfName.toUpperCase())
   }
