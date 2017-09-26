@@ -13,7 +13,6 @@ function summonCaptainPlanet(planeteerCalls){
     currentElement.toUpperCase() + "!";
   }
     return currentElement.join(, )
-
 }
 
 function longPlaneteerCalls(words) {
