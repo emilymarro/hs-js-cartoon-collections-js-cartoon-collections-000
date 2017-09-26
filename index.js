@@ -10,7 +10,7 @@ var planeteerCalls = [];
 function summonCaptainPlanet(planeteerCalls){
     for (var i=0; i < planeteerCalls.length; i++ ){
     var currentElement = planeteerCalls[i];
-    currentElement.toUpperCase.join(', ')() + "!";
+    currentElement.toUpperCase() + "!";
   }
     return currentElement
 }
