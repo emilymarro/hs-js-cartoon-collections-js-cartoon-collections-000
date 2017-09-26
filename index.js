@@ -3,7 +3,7 @@ function dwarfRollCall(dwarvesArray) {
   for (var i=0; i < dwarvesArray.length; i++ ){
   var currentDwarfName = dwarvesArray[i];
 }
-  return [i] + "." + currentDwarfName
+  return [i] + "." + currentDwarfName;
 }
 
 var planeteerCalls = [];
